@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import base64
 # Remplace par ta clé API xAI (obtiens-la sur https://x.ai/api)
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv ("API_KEY")
 API_URL = "https://api.x.ai/v1/chat/completions"  # Vérifie dans les docs xAI
 
 st.title("Analyse de Personnalité par Fond d'Écran Grok 🚀")
